@@ -582,10 +582,3 @@ footer{
 .fa-circle-thin{
 	color: wheat;
 }
-
-@media screen and (max-width:414px){
-	#banner {
-		max-width:414px;
-		transform: scale(1.0);
-	}
-}

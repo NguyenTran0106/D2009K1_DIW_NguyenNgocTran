@@ -140,7 +140,7 @@ h4{
 .nav-link{
 	font-family: Brolimo;
 	text-transform: capitalize;
-	color: wheat;
+	color: wheat !important;
 	font-size: 1.25em;
 }
 #navbar {
@@ -196,7 +196,7 @@ h4{
 }
 .dropdown-item{
 	margin: -2%;
-	color: wheat;
+	color: wheat !important;
 	text-transform: capitalize;
 	font-family: Brolimo;
 	font-size: 1.25em;
