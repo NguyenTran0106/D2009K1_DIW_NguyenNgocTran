@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" href="contact_css.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/e6ffd8ce4d.js" crossorigin="anonymous"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+	<!--------------------------------BUTTON ON TOP----------------------------->
+	<a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true">
+	</a>
+	
+<!---------------------BANNER VÀ NAVBAR----------------------------->
+	<div id="banner">
+		<nav id="navbar" class="navbar smart-scroll navbar-expand-lg " navbar-transition>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
+				aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="myNavbarToggler7">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="../index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../about/about.html" id="about">About</a>
+					</li>
+					<a class="d-none d-lg-block" href="#">
+						  <img src="../img/966b9a8e50600dfa0e160d5b0361994c.png" alt="logo" width="100" height="100" class="d-inline-block align-text-top">
+					</a>
+					<li class="nav-item dropdown">
+							  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								&emsp; cards
+							  </a>
+							  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="../tarot/tarot.html">Tarot</a></li>
+								<li><a class="dropdown-item" href="../oracle/oracle.html">Oracle</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="../lenormand/lenormand.html">Lenormand</a></li>
+							  </ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	
+	<!--___________________________CONTACT____________________________-->
+		<section id="survey">
+			<h1 data-aos="flip-left">get in touch</h1>
+			<div data-aos="zoom-in" class="infor">
+				<div class="infor01">
+					<span class="fa-stack fa-lg">
+					  <i class="fa fa-circle fa-stack-2x"></i>
+					  <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+					</span>
+<!--					<h2>0902-252-948</h2>-->
+				</div>
+				<div class="infor02">
+					<span class="fa-stack fa-lg">
+					  <i class="fa fa-circle fa-stack-2x"></i>
+					  <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
+					</span>
+<!--					<h2>0902-252-948</h2>-->
+				</div>
+				<div class="infor03">
+					<span class="fa-stack fa-lg">
+					  <i class="fa fa-circle fa-stack-2x"></i>
+					  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+					</span>
+<!--					<h2>0902-252-948</h2>-->
+				</div>
+				
+			</div>
+			<div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" class="survey_map_text">
+			<form>
+				<table>
+					<tbody>
+						<tr>
+							<td>
+								<input type="text" placeholder="Name">
+							</td>
+							<td>
+								<input type="email" placeholder="Email">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<textarea placeholder="Message"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<button>
+									sen a message
+								</button>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+
+		<div id="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d50656.56330600906!2d108.46182158303988!3d11.941288162915976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1636046865381!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+		</div>
+
+		<script>
+		function myMap() {
+		  var mapCanvas = document.getElementById("map");
+		  var mapOptions = {
+			center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+		  };
+		  var map = new google.maps.Map(mapCanvas, mapOptions);
+		}
+		</script>
+		<!--
+		To use this code on your website, get a free API key from Google.
+		Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+		-->
+		</section>
+	
+	<footer id="footer" class="text-center text-wheat row">
+		<p>Copyright © 2021 AngelTarot.vn</p>
+	<div id="footer_icons">
+		<span class="fa-stack text-center ">
+			<a href="https://www.facebook.com/" target="_blank" >
+				<i class="fa fa-circle-thin fa-stack-2x"></i>
+				<i class="fa fa-facebook"></i>
+			</a>
+		</span>
+		<span class="fa-stack text-center ">
+			<a href="https://www.instagram.com/" target="_blank">
+		  <i class="fa fa-circle-thin fa-stack-2x"></i>
+		  <i class="fa fa-instagram"></i></a>
+		</span>
+		<span class="fa-stack text-center ">
+			<a href="https://twitter.com/" target="_blank">
+		  <i class="fa fa-circle-thin fa-stack-2x"></i>
+		  <i class="fa fa-twitter"></i></a>
+		</span>
+		<span class="fa-stack text-center ">
+			 <a href="https://www.pinterest.com/" target="_blank">
+		  <i class="fa fa-circle-thin fa-stack-2x"></i>
+		 <i class="fa fa-pinterest"></i></a>
+		</span>
+		<span class="fa-stack text-center ">
+			<a href="https://www.behance.net/" target="_blank">
+		  <i class="fa fa-circle-thin fa-stack-2x"></i>
+		  <i class="fa fa-behance"></i></a>
+		</span>
+		<span class="fa-stack text-center">
+		<a href="https://dribbble.com/" target="_blank">
+		  <i class="fa fa-circle-thin fa-stack-2x"></i>
+		 <i class="fa fa-dribbble"></i>
+		</a>
+		</span>
+	</div>
+	</footer>
+<!-----------------------------javascrip---------------------------->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<script>
+		$(document).ready(function() {
+		$(window).scroll(function() {
+		if ($(this).scrollTop() > 20) {
+		$('#toTopBtn').fadeIn();
+		} else {
+		$('#toTopBtn').fadeOut();
+		}
+		});
+
+		$('#toTopBtn').click(function() {
+		$("html, body").animate({
+		scrollTop: 0
+		}, 1000);
+		return false;
+		});
+		});
+	</script>
+	<script>
+		var hideScroll = window.pageYOffset;
+
+		  window.onscroll = function() {
+			var currentScrollPos = window.pageYOffset;
+
+			  if (hideScroll > window.pageYOffset) {
+				document.getElementById("navbar").style.top = "0";
+				navbar.classList.add('nav-active');
+			  } else {
+				document.getElementById("navbar").style.top = "-50px";
+				navbar.classList.remove('nav-active');
+			  }
+
+			hideScroll = currentScrollPos;
+		  }
+	</script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+</html>
